@@ -1,0 +1,52 @@
+html,body{
+  margin : 0;
+  padding : 0;
+  height: 100%;
+
+  main{
+    display : flex;
+    flex-direction: row;
+    height: 100%;
+
+    aside{
+      max-width: 20%;
+      background-color: #6bbdd6;
+      border-right: 10px solid #007b9c;
+      height: 100%;
+      padding : 0.5em;
+
+      ul{
+        padding : 0;
+        li{
+          list-style: none;
+          margin-left : 1em;
+        }
+      }
+    }
+    article{
+      max-width: 80%;
+
+      img{
+        display : block;
+        max-width : 100%;
+        width: auto;
+        height: auto;
+        margin: auto;
+      }
+      h1{
+        text-align: center;
+        color : #e00000;
+      }
+      p{
+        margin : 0;
+        margin-left : 1em;
+      }
+
+      footer{
+        width: 80%;
+        position : fixed;
+        bottom : 0;
+      }
+    }
+  }
+}

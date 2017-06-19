@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  html main, body main {
+    display: flex;
+    flex-direction: row;
+    height: 100%; }
+    html main aside, body main aside {
+      max-width: 20%;
+      background-color: #6bbdd6;
+      border-right: 10px solid #007b9c;
+      height: 100%;
+      padding: 0.5em; }
+      html main aside ul, body main aside ul {
+        padding: 0; }
+        html main aside ul li, body main aside ul li {
+          list-style: none;
+          margin-left: 1em; }
+    html main article, body main article {
+      max-width: 80%; }
+      html main article img, body main article img {
+        display: block;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin: auto; }
+      html main article h1, body main article h1 {
+        text-align: center;
+        color: #e00000; }
+      html main article p, body main article p {
+        margin: 0;
+        margin-left: 1em; }
+      html main article footer, body main article footer {
+        width: 80%;
+        position: fixed;
+        bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */
